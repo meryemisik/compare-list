@@ -1,0 +1,172 @@
+.textarea-input {
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.list-compare-results {
+    padding: 30px;
+
+    .card-footer-buttons {
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+
+        button {
+            background-color: #FD5D90;
+            margin-left: 5px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+        }
+    }
+
+    .danger {
+        .card-footer-buttons {
+            button {
+                background-color: #7D4CE0;
+                color: #e8defb !important;
+            }
+        }
+
+        .ant-card {
+            &-meta {
+                &-detail {
+                    background-color: #e8defb !important;
+
+                    .dublicate-score {
+                        color: #e8defb !important;
+                        background-color: #7D4CE0;
+                    }
+                }
+
+                &-title {
+                    color: #7D4CE0;
+                }
+            }
+        }
+
+    }
+
+    .warning {
+        .card-footer-buttons {
+            button {
+                color: #CEE4F2 !important;
+                background-color: #0455BF;
+            }
+        }
+
+        .ant-card {
+            &-meta {
+                &-detail {
+                    background-color: #CEE4F2 !important;
+
+                    .dublicate-score {
+                        color: #CEE4F2 !important;
+                        background-color: #0455BF;
+                    }
+                }
+
+                &-title {
+                    color: #0455BF;
+                }
+            }
+        }
+
+    }
+
+    .info {
+        .card-footer-buttons {
+            button {
+                color: #EEF9FF !important;
+                background-color: #4DC0E0;
+            }
+        }
+
+        .ant-card {
+            &-meta {
+                &-detail {
+                    background-color: #EEF9FF !important;
+
+                    .dublicate-score {
+                        color: #EEF9FF !important;
+                        background-color: #4DC0E0;
+                    }
+                }
+
+                &-title {
+                    color: #4DC0E0;
+                }
+            }
+        }
+
+    }
+
+    .success {
+        .card-footer-buttons {
+            button {
+                color: #EEF9FF !important;
+                background-color: #468C51;
+            }
+        }
+
+        .ant-card {
+            &-meta {
+                &-detail {
+                    background-color: #C0EBC5 !important;
+
+                    .dublicate-score {
+                        color: #EEF9FF !important;
+                        background-color: #468C51;
+                    }
+                }
+
+                &-title {
+                    color: #468C51;
+                }
+            }
+        }
+
+    }
+
+    .ant-card {
+        width: 100%;
+        padding: 0;
+
+        &-body {
+            padding: 0 !important;
+        }
+
+        textarea {
+            width: 100%;
+            vertical-align: middle;
+            border: 1px solid #C0EBC5;
+        }
+
+        &-meta {
+            margin-bottom: 0 !important;
+
+            &-detail {
+                background-color: #FFE4EC;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+
+                .dublicate-score {
+                    border-radius: 12px;
+                    color: #FFE4EC !important;
+                    background-color: #FD5D90;
+                    padding: 4px 8px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+
+            
+        }
+    }
+}
