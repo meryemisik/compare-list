@@ -33,7 +33,7 @@ button{
     width: 0;
 }
 .compare{
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     .button-compare{
         background-color: #FD5D90;

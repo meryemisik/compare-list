@@ -195,7 +195,11 @@
 </template>
 
 <script>
+import ListCompareResults from './components/listCompareResults.vue'
 export default {
+  components: {
+    ListCompareResults
+  },
   data: () => ({
     compareButtonDisable: true,
     onlyAList: [],
@@ -468,5 +472,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../assets/scss/listCompare.scss";
+@import "./assets/scss/listCompare.scss";
 </style>
